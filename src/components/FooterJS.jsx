@@ -33,9 +33,15 @@ export default function FooterJS() {
             <div>
               <Footer.Title title="Follow us" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Facebook</Footer.Link>
-                <Footer.Link href="#">Instagram</Footer.Link>
-                <Footer.Link href="#">Shoppee</Footer.Link>
+                <Footer.Link href="http://m.me/61563009898350">
+                  Facebook
+                </Footer.Link>
+                <Footer.Link href="https://www.instagram.com/wi_sol.coffee/">
+                  Instagram
+                </Footer.Link>
+                <Footer.Link href="https://shopee.vn/wisolcoffee?is_from_signup=true">
+                  Shoppee
+                </Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>

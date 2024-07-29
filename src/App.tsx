@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import About from "./components/About";
 import Product from "./components/Product";
@@ -8,22 +8,14 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div className="App m-auto w-[1260px]">
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
-          <Route>
-            <Route path="/" element={<Layout children={<Home />} />} />
-            <Route
-              path="/product"
-              element={<Layout children={<Product />} />}
-            />
-            <Route
-              path="/contact"
-              element={<Layout children={<Contact />} />}
-            />
-            <Route path="/about" element={<Layout children={<About />} />} />
-          </Route>
+          <Route path="/" element={<Layout children={<Home />} />} />
+          <Route path="/product" element={<Layout children={<Product />} />} />
+          <Route path="/contact" element={<Layout children={<Contact />} />} />
+          <Route path="/about" element={<Layout children={<About />} />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

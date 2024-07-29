@@ -13,33 +13,42 @@ import { Avatar, Blockquote, Rating } from "flowbite-react";
 export default function Home() {
   return (
     <div>
+      <div className="pb-6 pt-6">
+        <h1 className="text-center text-4xl font-bold text-[#000000] ">
+          Chào mừng bạn đến với<br></br>{" "}
+          <strong className="font-bold"> wi_sol coffee </strong>
+        </h1>
+      </div>
       <div
         className="h-56 sm:h-64 xl:h-80 2xl:h-96"
         style={{ height: 450 + "px" }}
       >
         <Carousel>
-          <img src={require("./Carousel1.jpg")} alt="..." />
-          <img src={require("./Carousel2.jpg")} alt="..." />
-          {/* <img src={require("./Carousel3.jpg")} alt="..." /> */}
-          <img src={require("./Carousel4.jpg")} alt="..." />
-          <img src={require("./Carousel52.jpg")} alt="..." />
+
+          <img src={require("./Carousel1.jpg")} alt="wi_sol coffee" />
+          <img src={require("./Carousel2.jpg")} alt="wi_sol coffee" />
+          <img src={require("./Carousel4.jpg")} alt="wi_sol coffee" />
+          <img src={require("./Carousel52.jpg")} alt="wi_sol coffee" />
         </Carousel>
       </div>
-      <div className="pb-6 pt-6">
-        <h2 class="text-center text-4xl font-bold text-[#000000] text-white">
-          Chào mừng bạn đến với<br></br> WiSol
-        </h2>
-      </div>
 
-      <div>
+      <div className="pt-20">
+        <h1 class="pb-5 text-center text-4xl font-bold text-[#000000] ">
+          Đôi nét về
+          <strong className="font-bold"> wi_sol coffee </strong>
+        </h1>
         <Accordion collapseAll>
           <Accordion.Panel>
-            <Accordion.Title>Who are we</Accordion.Title>
+            <Accordion.Title>
+              <h2>
+                <b>wi_sol</b> là gì
+              </h2>
+            </Accordion.Title>
             <Accordion.Content>
               <p className="mb-2 text-gray-500 dark:text-gray-400">
-                Flowbite is an open-source library of interactive components
-                built on top of Tailwind CSS including buttons, dropdowns,
-                modals, navbars, and more.
+                <b>wi_sol</b> is an open-source library of interactive
+                components built on top of Tailwind CSS including buttons,
+                dropdowns, modals, navbars, and more.
               </p>
               <p className="text-gray-500 dark:text-gray-400">
                 Check out this guide to learn how to&nbsp;
@@ -55,7 +64,11 @@ export default function Home() {
             </Accordion.Content>
           </Accordion.Panel>
           <Accordion.Panel>
-            <Accordion.Title>About WiSol</Accordion.Title>
+            <Accordion.Title>
+              <h2>
+                Về <b>wi_sol</b>
+              </h2>
+            </Accordion.Title>
             <Accordion.Content>
               <p className="mb-2 text-gray-500 dark:text-gray-400">
                 Flowbite is first conceptualized and designed using the Figma
@@ -76,7 +89,10 @@ export default function Home() {
             </Accordion.Content>
           </Accordion.Panel>
           <Accordion.Panel>
-            <Accordion.Title>What we care the most</Accordion.Title>
+            <Accordion.Title>
+              {" "}
+              <b>wi_sol</b> có gì
+            </Accordion.Title>
             <Accordion.Content>
               <p className="mb-2 text-gray-500 dark:text-gray-400">
                 The main difference is that the core components from Flowbite
@@ -130,9 +146,9 @@ export default function Home() {
             imgSrc={require("./ice.JPG")}
           >
             <a href="#">
-              <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
                 Ice blended
-              </h5>
+              </h3>
             </a>
             <div className="mb-5 mt-2.5 flex items-center">
               <svg
@@ -198,9 +214,9 @@ export default function Home() {
             imgSrc={require("./ice.JPG")}
           >
             <a href="#">
-              <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
                 Ice blended
-              </h5>
+              </h3>
             </a>
             <div className="mb-5 mt-2.5 flex items-center">
               <svg
@@ -265,9 +281,9 @@ export default function Home() {
             imgSrc={require("./ice.JPG")}
           >
             <a href="#">
-              <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
                 Ice blended
-              </h5>
+              </h3>
             </a>
             <div className="mb-5 mt-2.5 flex items-center">
               <svg
@@ -332,9 +348,9 @@ export default function Home() {
             imgSrc={require("./ice.JPG")}
           >
             <a href="#">
-              <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
                 Ice blended
-              </h5>
+              </h3>
             </a>
             <div className="mb-5 mt-2.5 flex items-center">
               <svg
@@ -399,7 +415,10 @@ export default function Home() {
       <br />
       <br />
       <br />
-      <div className="overflow-y-auto">
+      <div className="p] overflow-y-auto">
+        <h2 className="pb-10 pt-10 text-center text-3xl font-bold text-[#000000]">
+          Tiêu chí của <b>wi_sol</b>
+        </h2>
         <Table striped className="text-xl">
           <Table.Head className="text-xl ">
             <Table.HeadCell className="flex-row">
@@ -450,7 +469,9 @@ export default function Home() {
       <br />
       <br />
       <div>
-        <h2 class="text-xl font-bold dark:text-white">Our Products</h2>
+        <h2 className="text-center text-3xl font-bold text-[#000000] ">
+          Thực đơn của <b>wi_sol</b>
+        </h2>
 
         <br />
       </div>
@@ -461,9 +482,9 @@ export default function Home() {
           imgSrc={require("./cake.jpg")}
         >
           <a href="#">
-            <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
               Cake
-            </h5>
+            </h3>
           </a>
           <div className="mb-5 mt-2.5 flex items-center">
             <svg
@@ -528,9 +549,9 @@ export default function Home() {
           imgSrc={require("./mojito.jpg")}
         >
           <a href="#">
-            <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
               Mojito
-            </h5>
+            </h3>
           </a>
           <div className="mb-5 mt-2.5 flex items-center">
             <svg
@@ -595,9 +616,9 @@ export default function Home() {
           imgSrc="/images/products/apple-watch.png"
         >
           <a href="#">
-            <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
               Coffee
-            </h5>
+            </h3>
           </a>
           <div className="mb-5 mt-2.5 flex items-center">
             <svg
@@ -662,9 +683,9 @@ export default function Home() {
           imgSrc={require("./ice.JPG")}
         >
           <a href="#">
-            <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
               Ice blended
-            </h5>
+            </h3>
           </a>
           <div className="mb-5 mt-2.5 flex items-center">
             <svg
@@ -729,9 +750,9 @@ export default function Home() {
           imgSrc="/images/products/apple-watch.png"
         >
           <a href="#">
-            <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
               Tea
-            </h5>
+            </h3>
           </a>
           <div className="mb-5 mt-2.5 flex items-center">
             <svg
@@ -794,8 +815,8 @@ export default function Home() {
       <br />
       <hr />
       <div className="pb-6 pt-6">
-        <h2 class="text-center text-3xl font-bold text-[#00000] ">
-          What our clients said
+        <h2 class="pb-5 pt-10 text-center text-3xl font-bold text-[#00000] ">
+          Khách hàng nói gì về <b>wi_sol</b>
         </h2>
         <br />
         <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">

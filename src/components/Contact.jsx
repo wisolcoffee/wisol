@@ -4,7 +4,6 @@ import { Textarea } from "flowbite-react";
 export default function Contact() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-gray-100 ">
-      <hr />
       <div className="flex w-full rounded bg-white p-10 shadow-md ">
         {/* Left Column: Contact Form */}
 
