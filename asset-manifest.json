@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wisol/static/css/main.100ac606.css",
-    "main.js": "/wisol/static/js/main.1f1fa464.js",
+    "main.js": "/wisol/static/js/main.378a63ee.js",
     "static/js/488.bd589fd8.chunk.js": "/wisol/static/js/488.bd589fd8.chunk.js",
     "static/media/menu.png": "/wisol/static/media/menu.2d5b5a220af34cef2aab.png",
     "static/media/poster.JPG": "/wisol/static/media/poster.fb656af8501938177d21.JPG",
@@ -52,11 +52,11 @@
     "static/media/trachanh.JPG": "/wisol/static/media/trachanh.c8df8976bfa28a97acac.JPG",
     "index.html": "/wisol/index.html",
     "main.100ac606.css.map": "/wisol/static/css/main.100ac606.css.map",
-    "main.1f1fa464.js.map": "/wisol/static/js/main.1f1fa464.js.map",
+    "main.378a63ee.js.map": "/wisol/static/js/main.378a63ee.js.map",
     "488.bd589fd8.chunk.js.map": "/wisol/static/js/488.bd589fd8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.100ac606.css",
-    "static/js/main.1f1fa464.js"
+    "static/js/main.378a63ee.js"
   ]
 }
